@@ -40,9 +40,9 @@
     XCTAssert([self.ltvc.names.firstObject isEqual:@"kenan"], @"ltViewControllerFirstNameShouldBeKenan");
 }
 
-- (void)test_ltViewControllerSecondNameShouldBeJames
+- (void)test_ltViewControllerSecondNameShouldBeJohnny
 {
-    XCTAssert([self.ltvc.names.firstObject isEqual:@"james"], @"test_ltViewControllerSecondNameShouldBeJames");
+    XCTAssert([self.ltvc.names.lastObject isEqual:@"johnny"], @"test_ltViewControllerSecondNameShouldBeJohnny");
 }
 
 
