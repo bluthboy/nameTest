@@ -7,6 +7,7 @@
 //
 
 #import "LTViewController.h"
+#import "LTNameViewController.h"
 
 @interface LTViewController () <UITableViewDelegate>
 
@@ -47,5 +48,12 @@
 
     return cell;
 }
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    LTNameViewController *nameViewController = [[LTNameViewController alloc] init];
+    nameViewController.name = self.names[(NSUInteger) indexPath.row];
+    [self.navigationController pushViewController:nameViewController animated:YES];
+}
+
 
 @end

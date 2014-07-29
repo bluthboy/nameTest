@@ -20,6 +20,7 @@
 		B208017B1987295400E831B3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B20801791987295400E831B3 /* InfoPlist.strings */; };
 		B208017D1987295400E831B3 /* name2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B208017C1987295400E831B3 /* name2Tests.m */; };
 		B20801881987297E00E831B3 /* LTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B20801871987297E00E831B3 /* LTViewController.m */; };
+		BB2EDEA8BCBBA042A7374C16 /* LTNameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB2EDAE8CA86EE4249A48FB6 /* LTNameViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		B208017C1987295400E831B3 /* name2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = name2Tests.m; sourceTree = "<group>"; };
 		B20801861987297E00E831B3 /* LTViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTViewController.h; sourceTree = "<group>"; };
 		B20801871987297E00E831B3 /* LTViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTViewController.m; sourceTree = "<group>"; };
+		BB2EDAE8CA86EE4249A48FB6 /* LTNameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTNameViewController.m; sourceTree = "<group>"; };
+		BB2EDDC02ACAF10CB3FD014F /* LTNameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTNameViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +119,8 @@
 				B20801871987297E00E831B3 /* LTViewController.m */,
 				B20801691987295400E831B3 /* Images.xcassets */,
 				B208015E1987295400E831B3 /* Supporting Files */,
+				BB2EDAE8CA86EE4249A48FB6 /* LTNameViewController.m */,
+				BB2EDDC02ACAF10CB3FD014F /* LTNameViewController.h */,
 			);
 			path = name2;
 			sourceTree = "<group>";
@@ -248,6 +253,7 @@
 				B20801681987295400E831B3 /* LTAppDelegate.m in Sources */,
 				B20801641987295400E831B3 /* main.m in Sources */,
 				B20801881987297E00E831B3 /* LTViewController.m in Sources */,
+				BB2EDEA8BCBBA042A7374C16 /* LTNameViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
